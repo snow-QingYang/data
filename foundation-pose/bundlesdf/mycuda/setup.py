@@ -33,7 +33,7 @@ setup(
         ],extra_compile_args={'gcc': c_flags, 'nvcc': nvcc_flags}),
     ],
     include_dirs=[
-        "/home/qingyang/miniconda3/envs/foundationpose/include/eigen3/"
+        "/proj/qingyang/miniconda3/envs/foundationpose/include/eigen3/"
     ],
     cmdclass={
         'build_ext': BuildExtension
